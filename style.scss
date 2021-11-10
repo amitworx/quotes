@@ -21,7 +21,7 @@ body {
 
 .quote{
     &__container{
-        width: auto;
+        width: 100%;
         max-width: 900px;
         padding: 20px 30px;
         border-radius: 10px;
@@ -85,6 +85,9 @@ button{
     }
 }
 
+.fa-twitter{
+    font-size: 1.5rem;
+}
 
 /* Media Queries */
 @media(max-width: 1000px){
